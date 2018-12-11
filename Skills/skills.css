@@ -1,0 +1,17 @@
+ /* UL Styles */
+ 
+ ul#class {
+     text-indent: 10px;
+     list-style-position: inside;
+     line-height: 30px;
+ }
+ 
+ /* Article Styles */
+ 
+ article p {
+     text-indent: 5px;
+     font-size: 20px;
+     line-height: 20px;
+     letter-spacing: 2px;
+     margin-bottom: 10px;
+ }

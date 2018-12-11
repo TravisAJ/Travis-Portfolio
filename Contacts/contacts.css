@@ -1,0 +1,23 @@
+ /* Styles */
+ 
+ article p:first-of-type {
+     text-indent: 15px;
+     font-size: 20px;
+     margin: 5px;
+     line-height: 20px;
+ }
+ 
+ article p:nth-of-type(2) {
+     line-height: 25px;
+     margin: 5px;
+     margin-left: 15px;
+ }
+ 
+ article p:last-of-type {
+     margin: 5px;
+     line-height: 20px;
+ }
+ 
+ article a {
+     color: black;
+ }

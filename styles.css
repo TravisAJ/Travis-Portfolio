@@ -1,0 +1,96 @@
+
+/* General Webpage Styles */
+
+html {
+    background-image: url("background.jpg");
+    width: 100%;
+}
+
+body{
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    box-shadow: 0 0 15px 13px white;
+}
+    
+/* Title Styles */ 
+
+header h1{
+    background-color: rgb(0, 77, 0);
+    border: 2px solid black;
+    border-top: none;
+}
+
+header#logo img {
+    width: 8em;
+    float: left;
+    padding-left: 5px;
+}
+
+h1.title {
+    font-size: 100px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-shadow: 0 0 20px black;
+    font-variant: small-caps;
+    font-family: serif;
+}
+
+/* Navigation Styles */
+
+nav li {
+    width: 20%;
+    float: left;
+    text-align: center;
+    background-color: rgb(175, 219, 186);
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
+
+nav li a {
+    color: rgb(0, 77, 0);
+    display: block;
+}
+
+nav li a:visited {
+    color: rgb(0, 77, 0);
+}
+
+nav li:hover {
+    background-color: white;
+}   
+
+/* Content Styles */
+
+h1#title {
+    letter-spacing: 10px;
+    font-size: 3em;
+    margin: 20px;
+    text-indent: -5px;
+    /*
+    Thanks to (https://www.w3schools.com/cssref/pr_text_text-indent.asp) for text-indent.
+    */
+    padding-top: 30px;
+    font-family: 'Fredoka One', cursive;
+}
+
+article, blockquote, aside {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    height: 30px;
+    text-align: center;
+    padding-top: 7px;
+    text-shadow: 0px 15px 2px black;
+    width: 100%;
+}
+
+/* Mobile Styles */
+

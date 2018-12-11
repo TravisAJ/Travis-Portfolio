@@ -1,0 +1,44 @@
+/* Aside Styles */
+
+aside.game img {
+    width: 400px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+aside.game h2 {
+    text-indent: 100px;
+    font-size: 20px;
+}
+
+aside.website img {
+    width: 400px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+aside.website h2 {
+    font-size: 20px;
+    text-indent: 110px;
+}
+
+/* Article Styles */
+
+article.game {
+    text-align: justify;
+    margin-right: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+article.website {
+    text-align: justify;
+    margin-right: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 150px;
+    font-family: "Times New Roman", Times, serif;
+}
