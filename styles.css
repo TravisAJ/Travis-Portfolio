@@ -92,5 +92,43 @@ footer {
     width: 100%;
 }
 
-/* Mobile Styles */
+/* Other Devices Styles */
 
+@media only screen and (max-width: 1440px) { /* Laptop */
+    
+    header#logo img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) { /* Tablet */
+    
+    h1.title {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+    
+    footer {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) { /* Mobile */
+    
+    html {
+        background-image: none;
+    }
+    
+    body {
+        width: 100%;
+    }
+    
+    nav li {
+        width: 100%;
+    }
+    
+    nav li:last-of-type {
+        border-bottom: 2px solid black;
+    }
+    
+}

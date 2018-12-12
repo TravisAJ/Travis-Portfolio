@@ -15,3 +15,33 @@
      letter-spacing: 2px;
      margin-bottom: 10px;
  }
+
+ /* Other Devices Styles */
+ 
+ @media only screen and (max-width: 1440px) { /* Laptop */
+    
+    h1#title {
+        font-size: 3em;
+    }
+}
+ 
+ @media only screen and (max-width: 1440px) { /* Laptop */
+    
+    h1#title {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 768px) { /* Tablet */
+    
+    h1#title {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) { /* Mobile */
+    
+    h1#title {
+        font-size: 2em;
+    }
+}

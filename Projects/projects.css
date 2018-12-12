@@ -30,7 +30,7 @@ article.game {
     font-size: 18px;
     line-height: 30px;
     margin-top: 100px;
-    margin-bottom: 250px;
+    margin-bottom: 20%;
     font-family: "Times New Roman", Times, serif;
 }
 
@@ -42,3 +42,4 @@ article.website {
     margin-top: 150px;
     font-family: "Times New Roman", Times, serif;
 }
+
