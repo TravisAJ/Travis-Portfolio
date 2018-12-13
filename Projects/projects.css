@@ -1,25 +1,11 @@
 /* Aside Styles */
 
-aside.game img {
+aside img {
     width: 400px;
-    float: left;
-    margin-bottom: 50px;
 }
 
-aside.game h2 {
-    text-indent: 100px;
+aside h2 {
     font-size: 20px;
-}
-
-aside.website img {
-    width: 400px;
-    float: left;
-    margin-bottom: 20px;
-}
-
-aside.website h2 {
-    font-size: 20px;
-    text-indent: 110px;
 }
 
 /* Article Styles */
@@ -28,9 +14,8 @@ article.game {
     text-align: justify;
     margin-right: 10px;
     font-size: 18px;
-    line-height: 30px;
-    margin-top: 100px;
     margin-bottom: 20%;
+    line-height: 30px;
     font-family: "Times New Roman", Times, serif;
 }
 
@@ -43,3 +28,52 @@ article.website {
     font-family: "Times New Roman", Times, serif;
 }
 
+/* Other Devices Styles */
+
+@media only screen and (max-width: 768px) { /* Tablet */
+    
+    h1#title {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1024px) { /* Small Laptop */
+    
+    aside img {
+        display: block;
+        margin-bottom: 0;
+        margin: auto;
+        width: 300px;
+    }
+    
+    aside h2 {
+        text-align: center;
+    }
+    
+    article.website {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 1025px) { /* Above Small Laptop */  
+    
+    aside img {
+        float: left;
+    }
+    
+    aside.game img {
+        margin-bottom: 50px;
+    }
+    
+    aside.website img {
+        margin-bottom: 20px;
+    }
+    
+    article.game {
+        margin-top: 100px;
+    }
+    
+    aside h2 {
+        text-indent: 100px;
+    }
+}
